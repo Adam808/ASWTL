@@ -1,0 +1,137 @@
+body {
+width: 100%;
+font-size: 1em;
+}
+
+div#banner {
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+background-color: #115740;
+}
+
+div#banner img, div#spacer img {
+float: left;
+}
+
+div#spacer {
+width: 100%;
+visibility: hidden;
+}
+
+div#banner h1, div#spacer h1 {
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 2em;
+color: white;
+padding-left: 20%;
+margin-top: 1em;
+}
+
+main {
+width: 75%;
+margin: 0 auto 0 auto;
+}
+
+nav {
+clear: both;
+width: 60%;
+margin-left: 6%;
+}
+
+nav ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+nav ul li {
+text-align: center;
+display: inline;
+width: 15%;
+float: left;
+margin: 0 .2em 0 0;
+}
+
+nav ul li a {
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 1.1em;
+font-weight: 900;
+text-decoration: none;
+color: white;
+display: block;
+padding: .3em;
+}
+
+li {
+background-color: #b9975b;
+}
+
+li:hover {
+background-color: #876930;
+}
+
+div#content {
+width: 68%;
+float: left;
+}
+
+aside {
+width: 29%;
+float: right;
+}
+
+h2 {
+font-family: Tahoma, Geneva, sans-serif;
+color: #333333;
+}
+
+p, ul {
+font-family: Georgia, Times, serif;
+font-size: 1.3em;
+color: #333333;
+}
+
+aside p {
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 1em;
+color: #333333;    
+}
+
+aside h3 {
+font-family: Georgia, Times, serif;
+color: #b9975b;
+margin-bottom: -3%;
+}
+
+footer {
+clear: both;
+width: 100%;
+height: 46px;
+background-color: #b9975b;
+}
+
+footer ul {
+list-style-type: none;
+padding-left: 20%;
+}
+
+footer ul li {
+display: inline;
+float: left;
+margin: 0 .75em 0 0;
+}
+
+footer ul li a {
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 1em;
+font-weight: 400;
+text-decoration: none;
+color: white;
+display: block;
+padding: .5em;
+}
+
+img.forWrap {
+float: left;
+margin: 0 1em .5em 0;
+}
